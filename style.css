@@ -1137,3 +1137,189 @@ h1.heading{
 
 
 
+@media (max-width: 412px) {
+  section{
+    margin: 0 1rem;
+  }
+  
+  h1.heading{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  /* header */
+  .header{
+    padding: 1rem .5rem 1rem 0rem;
+  }
+  .header img{
+    width: 21px;
+  }
+  .header nav a{
+    font-size: 11px;
+    margin: .2rem;
+  }
+  .header .icons{
+    font-size: 14px;
+  }
+  /* home */
+
+  .home h1{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .home a.btn{
+    font-size: 1rem;
+    padding: .125rem .5rem;
+  }
+  .home a.btn:hover{
+    padding: .125rem .5rem;
+  }
+  
+  .home img{
+    width: 10rem;
+  }
+  
+  /* about me */
+  .aboutcontent{
+    margin-bottom: 5rem;
+  }
+
+  .aboutcontent img{
+    width: 8rem;
+  }
+
+  .aboutcontent .infomation{
+    margin-right: 2rem;
+  }
+
+  .aboutcontent .intro{
+    font-size: 10px;
+  }
+
+  .aboutcontent .paragraph{
+    font-size: 6px;
+  }
+
+  .aboutcontent2 img{
+    width: 8rem;
+  }
+  .aboutcontent2 .container{
+    margin-left: .5rem;
+  }
+  .aboutcontent2 .intro{
+    line-height: 1rem;
+  }
+  .aboutcontent2 .name{
+    font-size: 1rem;
+  }
+  .aboutcontent2 .description{
+    font-size: .4rem;
+  }
+  .aboutcontent2 .infomation{
+    font-size: .4rem;
+  }
+
+  .aboutcontent2 .infomation span{
+    font-size: .4rem;
+  }
+  .aboutcontent2 .column2{
+    line-height: .7rem;
+    font-size: .4rem;
+    padding-left: .25rem;
+  }
+  .aboutcontent2 .column2 .title{
+    font-size: .85rem;
+  }
+  
+  .aboutcontent2 .column2 .payme{
+    font-size: .3rem;
+  }
+  /* skills */
+    
+  .skills .title{
+    font-size: .5rem;
+  }
+  
+  .skills .description{
+    font-size: 5px;
+  }
+  
+  .skills .box{
+    margin: 1rem 1rem;
+    width: 6rem;
+  }
+  
+  .skills .box img{
+    width: 2rem;
+    margin: 2rem;
+  }  
+  /* project section */
+  
+  .project .container .row img{
+    width: 120px;
+  }
+  
+  .project .container .row .infomation{
+    padding: 2rem 1rem;
+  }
+  
+  .project .container .row .infomation .name{
+    font-size: 9px;
+  }
+  
+  .project .container .row .infomation .description{
+    font-size: 7.25px;
+  }
+      
+  .project .container .row .infomation .link a{
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 10px;
+  
+  }
+    
+  /* Contact section */
+  
+  .contact{
+    padding: 1px 4rem 3rem 4rem;
+  }
+  
+  .contact .share{
+    margin-bottom: 1rem;
+  }
+  
+  .contact .share a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: 15px;
+  }
+  
+  .contact .share1{
+    margin-bottom: 2rem;
+  }
+  
+  .contact .share1 p{
+    font-size: 10px;
+  }
+
+  .contact .share1 p span{
+    font-size: 12px;
+  }
+
+  .contact .share1 .intouch #icon{
+    margin: 0 8px;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+    border: 1px solid var(--p-color);
+    padding: .3rem .8rem;
+    font-size: 10px;
+  }
+    
+  .footer p{
+    font-size: 8px;
+  }
+}
